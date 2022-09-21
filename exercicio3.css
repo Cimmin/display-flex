@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100vw;
+}
+
+.container.header {
+  height: 8vh;
+  background-color: #274472;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container.header > a {
+  text-decoration: none;
+  color: #5885af;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main.container.main {
+  background-color: #bfd7ed;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.login {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho-login {
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 30px;
+  color: #274472;
+}
+
+p {
+  font-size: 14px;
+  color: #5885af;
+}
+
+.login > p {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.redes-sociais-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.redes-sociais-buttons > button {
+  height: 40px;
+  width: 24vw;
+  background-color: #0074b7;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 13px;
+}
+
+.label-float input {
+  background-color: #bfd7ed;
+  border-radius: 5px;
+  outline: none;
+  min-width: 46vw;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 2px solid #274472;
+  margin-left: 3px;
+}
+
+.label-float label {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-size: 13px;
+  color: #41729f;
+  background-color: #bfd7ed;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.form > input {
+  min-width: 49.4vw;
+  font-size: 16px;
+  margin-left: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #0074b7;
+  border-radius: 5px;
+  outline: none;
+  padding: 15px 20px;
+  border: 2px solid #0074b7;
+  cursor: pointer;
+}
+
+.criar-conta a {
+  text-decoration: none;
+  color: #0074b7;
+  font-weight: 600;
+}
+
+.criar-conta a:hover {
+  text-decoration: none;
+  color: #274472;
+  font-weight: 600;
+}
